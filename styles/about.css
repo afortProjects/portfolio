@@ -1,0 +1,38 @@
+#about_container {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    color: #333;
+    background-position: center;
+    background: #fafafa;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    z-index: 0;
+}
+
+#about_title {
+    margin-bottom: 20vh;
+}
+
+#about_title::after {
+    content: '';
+    position: absolute;
+    height: 5px;
+    width: 3rem;
+    background: #333;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 5px;
+}
+
+#about_message {
+    max-width: 55rem;
+    color: #666;
+    font-size: 1.4rem;
+}
+
+#about_section {
+    display: flex;
+    justify-content: space-between;
+}
