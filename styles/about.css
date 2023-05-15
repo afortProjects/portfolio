@@ -1,21 +1,15 @@
-#about_container {
-    position: relative;
-    height: 100vh;
-    width: 100%;
-    color: #333;
-    background-position: center;
-    background: #fafafa;
-    display: flex;
-    align-items: center;
-    justify-content: start;
-    z-index: 0;
+.about-container {
+    background-color: white;
 }
+.about-container-title {
+    text-align: center;
+    margin-top: 3rem;
+    letter-spacing: 2px;
+    color: #111;
+    margin-bottom: 5rem;
 
-#about_title {
-    height: 20vh;
 }
-
-#about_title::after {
+.about-container-title::after{
     content: '';
     position: absolute;
     height: 5px;
@@ -23,16 +17,14 @@
     background: #333;
     left: 50%;
     transform: translateX(-50%);
+    margin-top: 4rem;
     border-radius: 5px;
 }
-
-#about_message {
+.about-title {
+    
+}
+.about-text {
     max-width: 55rem;
     color: #666;
-    font-size: 1.4rem;
-}
-
-#about_section {
-    display: flex;
-    justify-content: space-between;
+    font-size: 1.2rem;
 }

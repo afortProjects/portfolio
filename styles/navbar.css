@@ -1,5 +1,6 @@
 .custom-navbar{
     height: 7vh;
+    background-color: #fafafa;
 }
 
 .navbar-nav {
@@ -58,100 +59,3 @@
     transform: scaleX(0.9);
     color: #333;
 }
-
-/* nav {
-    height: 1%;
-    width: 100%;
-    background-color: #fff;
-    position: fixed;
-    top: 0;
-    left: 0;
-    padding: 1.25%;
-    z-index: 100;
-}
-
-.menu-items {
-    letter-spacing: 1px;
-    font-weight: 500;
-    font-size: 1.05rem; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    height: 100%;
-}
-
-.menu-items ul{
-    width: 50%;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    height: 100%;
-}
-
-.menu-items a {
-    position: relative;
-    color: #333;
-    text-decoration: none;
-}
-
-.menu-items a:before{
-    content: '';
-    width: 0;
-    height: 3px;
-    background-color: #333;
-    position: absolute;
-    transition: .3s;
-    bottom: -35%;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-.menu-items a:hover:before
-{
-    bottom: -35%;
-    width: 115%;
-}
-
-.menu-items > li > a {
-    z-index: 1;
-}
-
-.menu-icons {
-    margin-right: 1.5rem;
-    top: -0.25rem;
-    position: absolute;
-    right: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.menu-icons ul {
-    list-style: none;
-    display: flex;
-    flex-direction: row-reverse;
-}
-
-.menu-icons i{
-    color: #333;
-    font-size: 1.35rem;
-    margin-right: 1.5rem;
-}
-
-.menu-icons i:hover {
-    transform: scale(1.15);
-    cursor: pointer;
-}
-
-.menu-icons a:hover {
-    cursor: auto;
-}
-
-.menu-icons a:hover:before
-{
-    width: 0%;
-} */
