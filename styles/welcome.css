@@ -1,3 +1,6 @@
+.bg-custom {
+    background: linear-gradient(to right,rgba(240, 238, 238, 0.8),rgba(240, 238, 238, 0.8)),url(../assets/background_images/home.svg)
+}
 .welcome-title {
     font-size: 3rem;
     letter-spacing: 1px;
