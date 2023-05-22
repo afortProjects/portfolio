@@ -3,9 +3,9 @@
     height: 100%;
     border-radius: 10px;
     box-shadow: 0 0 20px #666;
-    max-width: 500px;
-    max-height: 600px;
-    min-height: 400px;
+    max-width: 40vw;
+    max-height: 80vh;
+    min-height: 80vh;
     padding: 2rem;
     background-color: #333; /* #333 */
     margin-bottom: 5rem;
@@ -14,31 +14,22 @@
     margin-left: auto;
     margin-right: auto;
   }
-  
-.box .video-placeholder {
-    position: relative;
-    width: 100%;
-    padding-bottom: 56.25%; /* 16:9 aspect ratio for video placeholder */
+@media (max-width: 990px) {
+    .box {
+        max-height: 100vh;
+        max-width: 100vw;
+    }
 }
-  
-.box .video-placeholder img {
-    width: 100%;
+.carousel-image {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    max-width: 100%;
+    max-height: 60vh;
+    min-height: 60vh;
+    width: auto;
     height: auto;
-    object-fit: cover;
 }
-  
-.box .play-button {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 60px;
-    height: 60px;
-    background-color: rgba(0, 0, 0, 0.6);
-    border-radius: 50%;
-    cursor: pointer;
-}
-  
+
 .project-name {
     letter-spacing: 2px;
     font-size: 1.5rem;
@@ -47,4 +38,20 @@
 
 .project-description {
     font-size: 1.25rem;
+}
+
+#world-simulation .box {
+    max-width: 60vw;
+}
+@media (max-width: 990px) {
+    #world-simulation .box {
+        max-width: 100vw;
+    }
+}
+#world-simulation .carousel-control-prev-icon {
+ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23333'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e");
+}
+
+#world-simulation .carousel-control-next-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23333'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
 }

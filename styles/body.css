@@ -8,3 +8,14 @@ body {
     background: white;
     background-position: center;
 }
+#scrollButton {
+    font-size: 1.5rem;
+    color: #333;
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border: none;
+    cursor: pointer;
+    background: none;
+}
