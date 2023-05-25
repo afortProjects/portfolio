@@ -1,5 +1,5 @@
 .custom-navbar{
-    height: 7vh;
+    height: 8vh;
     background-color: #fafafa;
 }
 
@@ -106,4 +106,10 @@
         background-color: #333;
         color: white !important;
     }
+}
+
+.no-active-color:focus,
+.no-active-color:active {
+  color: #333;
+  background-color: transparent;
 }
