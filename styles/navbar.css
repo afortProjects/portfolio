@@ -77,7 +77,7 @@
         background-color: #fafafa;
         padding: 0 !important;
         margin-top: 0.7rem;
-        margin-bottom: 0.7rem;
+        margin-bottom: 0.8rem;
     }
     .navbar-icons {
         visibility: hidden;
@@ -96,6 +96,7 @@
         color: #333;
         padding-left: 0.5rem;
         padding-top: 0.5rem;
+        letter-spacing: 2px;
     }
     .navbar-nav .nav-link:hover::after {
         visibility: hidden;
